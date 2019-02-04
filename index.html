@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,700" rel="stylesheet" />
+	<link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="icon" href="https://www.brooklynfilmfestival.org/wp-content/uploads/2018/03/cropped-top18b-32x32.png" type="image/x-icon" />
+
+
+	<title>Brooklyn Outdoor Film Festival</title>
+</head>
+
+<body>
+
+	<!-- Start Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">Brooklyn Film Festival</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse bg-dark" id="navbarNav">
+				<ul class="navbar-nav ml-auto mr-3">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#up-coming-shows">Up Coming Shows</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#news">News</a>
+					</li>
+				</ul>
+				<!-- Button trigger modal -->
+				<button class="btn btn-outline-primary my-2 my-sm-0" type="button" data-toggle="modal" data-target="#pre-register-model">
+					Pre Register
+				</button>
+			</div>
+		</div>
+	</nav>
+	<!-- End Navbar -->
+
+	<!-- Model for Pre Register -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="pre-register-model" tabindex="-1" role="dialog" aria-labelledby="pre-register-modelLabel"
+	 aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="pre-register-modelLabel">
+						Pre Register
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<form>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="E-mail">Email address</label>
+							<input type="email" class="form-control" id="E-mail" aria-describedby="emailHelp" placeholder="Your Email" />
+							<small id="emailHelp" class="form-text text-muted mt-2">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="FirstName">First Name</label>
+							<input type="text" class="form-control" id="FirstName" placeholder="Your First Name" />
+						</div>
+						<div class="form-group">
+							<label for="LastName">Last Name</label>
+							<input type="text" class="form-control" id="LastName" placeholder="Your Last Name" />
+						</div>
+						<div class="form-group">
+							<label for="ticketNO">Tickets Number</label>
+							<input type="Number" class="form-control" id="ticketNO" placeholder="How Many Tickets?" />
+						</div>
+						<div class="form-group">
+							<label for="Date">Date</label>
+							<input class="form-control" id="datepicker" value="05/08/2018" />
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Close
+						</button>
+						<button type="button" class="btn btn-outline-primary">
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<!-- Start Home Slider -->
+		<section>
+			<div id="home-slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#home-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#home-slider" data-slide-to="1"></li>
+					<li data-target="#home-slider" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active carousel-item1">
+						<div class="carousel-caption">
+							<h1>
+								From <span class="text-primary">August 5th </span>through
+								<span class="text-primary">8th</span>
+							</h1>
+							<h2 class="text-primary mt-3 mb-5">
+								6pm <span class="text-white">To</span> Midnight
+							</h2>
+							<button class="btn btn-outline-primary my-2 my-sm-0" type="button" data-toggle="modal" data-target="#pre-register-model">
+								Pre Register
+							</button>
+						</div>
+					</div>
+					<div class="carousel-item carousel-item2">
+						<div class="carousel-caption">
+							<h1>
+								From <span class="text-primary">August 5th </span>through
+								<span class="text-primary">8th</span>
+							</h1>
+							<h2 class="text-primary mt-3 mb-5">
+								6pm <span class="text-white">To</span> Midnight
+							</h2>
+							<button class="btn btn-outline-primary my-2 my-sm-2" type="button" data-toggle="modal" data-target="#pre-register-model">
+								Pre-Register
+							</button>
+						</div>
+					</div>
+					<div class="carousel-item carousel-item3">
+						<div class="carousel-caption">
+							<h1>
+								From <span class="text-primary">August 5th </span>through
+								<span class="text-primary">8th</span>
+							</h1>
+							<h2 class="text-primary mt-3 mb-5">
+								6pm <span class="text-white">To</span> Midnight
+							</h2>
+							<button class="btn btn-outline-primary my-2 my-sm-0" type="button" data-toggle="modal" data-target="#pre-register-model">
+								Pre Register
+							</button>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#home-slider" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#home-slider" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+		<!-- End Home Slider -->
+
+		<!-- Start welcome -->
+		<section class="offset-sticky pb-5">
+			<div class="container text-center">
+				<h1>Welcome to Brooklyn Film Festival</h1>
+				<h5 class="mt-5">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua.<br />
+					Amet justo donec enim diam.
+				</h5>
+			</div>
+		</section>
+		<!-- End welcome -->
+
+		<!-- Start preregister -->
+		<section class="preregister-section bg-dark py-4">
+			<div class="container">
+				<div class="row">
+					<h5 class="text-light col-7">
+						Now you can book your place since it's only for
+						<span class="text-primary text-uppercase">limited</span> places
+					</h5>
+					<div class="col-5">
+						<button class="btn btn-outline-primary my-2 my-sm-0 float-right" data-toggle="modal" data-target="#pre-register-model"
+						 type="button">
+							Pre Register
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End preregister -->
+		<hr class="text-primary">
+
+		<!-- Start Up Coming Shows -->
+		<section id="up-coming-shows" class="bg-dark text-center text-white offset-sticky pb-5">
+			<div class="container">
+				<h1 class="text-white">Up-Coming Shows</h1>
+				<div class="row mt-5">
+					<div class="col-lg-4 col-md-6 mb-5">
+						<h1 class="text-primary">Day 1</h1>
+						<div class="show-content mt-5">
+							<img src="images/act_of_terror.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">ACT OF TERROR, AN</h2>
+							<p>
+								The true story of Virginia Christian, a 16-year-old African American girl accused of murder in the Jim Crow
+								South. ...
+							</p>
+							<h4>6 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1899#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+						<div class="show-content mt-5">
+							<img src="images/afghan_cycles.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">
+								AFGHAN CYCLES</h2>
+							<p>
+								A new generation of young women in Afghanistan are breaking deep-seated gender taboos by learning to ride
+								bicycles, normalizing the visibility of women in ...
+							</p>
+							<h4>9 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1928#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5">
+						<h1 class="text-primary">Day 2</h1>
+						<div class="show-content mt-5">
+							<img src="images/are_you_glad_im_here.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">
+								ARE YOU GLAD I'M HERE</h2>
+							<p>
+								A Lebanese woman and an American girl become friends and accidental partners-in-crime in a story that explores
+								the nature of happiness and self-actualizati ...
+							</p>
+							<h4>6 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1935#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+						<div class="show-content mt-5">
+							<img src="images/asian_girls.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">ASIAN GIRLS</h2>
+							<p>
+								CHAN is a Chinese factory worker who lives alone. Every night, she suffers from horrific nightmares involving
+								the woman in the apartment next door, a Japan ...
+							</p>
+							<h4>9 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1909#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5">
+						<h1 class="text-primary">Day 3</h1>
+						<div class="show-content mt-5">
+							<img src="images/babs.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">
+								BABS</h2>
+							<p>
+								An estranged son discovers an alarming purchase made by his late father. ...
+							</p>
+							<h4>6 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1919#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+						<div class="show-content mt-5">
+							<img src="images/before_the_fall.jpg" alt="filmName" class="img-fluid" />
+							<h2 class="mt-5 mb-3">
+								BEFORE THE FALL</h2>
+							<p>
+								In the midst of the American Civil War, a young boy named Thomas, determined to cure his dying mother, wanders
+								into the woods motivated by a mythical story ...
+							</p>
+							<h4>9 Pm <a href="https://www.brooklynfilmfestival.org/film-detail?fid=1898#trailer" target="_blank" class="text-primary">Trailer</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Up Coming Shows -->
+
+		<!-- Start Featured Shows -->
+		<section id="news" class="news-section bg-light offset-sticky pb-5">
+			<div class="container">
+				<h1 class="text-center mb-5">News About Us</h1>
+				<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="images/news1.jpg" alt="Card image cap" />
+						<div class="card-body">
+							<h3 class="card-title text-primary">The Brooklyn Film Festival’s 21st Season is Upon Us: Get Ready for Love, ...</h3>
+							<p class="card-text">
+								The Brooklyn Film Festival is back with a vengeance – an artistic, thought-provoking reprisal...
+							</p>
+							<a href="https://dontsuckmycollagen.com/2018/06/05/the-brooklyn-film-festivals-21st-season-is-upon-us-get-ready-for-love-loss-triumph-and-controversy/"
+							 target="_blank" class="card-link text-primary">Read more &rarr;</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="images/news2.png" alt="Card image cap" />
+						<div class="card-body">
+							<h3 class="card-title text-primary">Brooklyn Film Festival’s 21st Season Delivered Its Finest Cinema To Date!</h3>
+							<p class="card-text">
+								The 4-day Brooklyn Film Festival Wrapped up its 21st Season. And its festival slogan...
+							</p>
+							<a href="https://dontsuckmycollagen.com/2018/06/15/brooklyn-film-festivals-21st-season-delivered-its-finest-cinema-to-date/"
+							 target="_blank" class="card-link text-primary">Read more &rarr;</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="images/news3.png" alt="Card image cap" />
+						<div class="card-body">
+							<h3 class="card-title text-primary">Working in Protest': How Two Filmmakers Made a Gripping Feature from ...</h3>
+							<p class="card-text">
+								Michael Galinksy and Suki Hawley took a stance to document, without mediation, over 30 years of that American
+								First ...
+							</p>
+							<a href="https://nofilmschool.com/2018/05/working-protest-doc-interview" target="_blank" class="card-link text-primary">Read
+								more &rarr;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Featured Shows -->
+	</main>
+
+	<!-- Start Footer -->
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6 mt-5">
+					<h2 class="text-white">Info</h2>
+					<div class="info-content mt-2">
+						<ul>
+							<li>
+								<i class="fas fa-map-marker-alt"></i>
+								<span class="ml-2">Brooklyn park film</span>
+							</li>
+							<li>
+								<i class="far fa-envelope"></i><a href="mailto:Hello@brooklyn.com" class="ml-2">Hello@brooklyn.com</a>
+							</li>
+							<li>
+								<i class="fas fa-mobile-alt"></i>
+								<span class="ml-2">(602)-123-456</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5  mt-5">
+					<h2 class="text-white">Social</h2>
+					<div class="social-icons col">
+						<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+						<a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+						<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.brooklynpaper.com/"><i class="fas fa-newspaper"></i></a>
+						<a href="https://www.brooklynbridgepark.org/"><i class="fas fa-tree"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- JS Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+	<!-- Datepicker-->
+	<script>
+		$('#datepicker').datepicker({
+			uiLibrary: 'bootstrap4'
+		});
+	</script>
+</body>
+
+</html>
